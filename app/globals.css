@@ -1,0 +1,28 @@
+:root {
+  --background-main-color: #FFFFFF;
+  --main-text-color: #21243D;
+  --nav-text-color: #000000;
+  --link-text-color: #00A8CC;
+  --body-content-max-width: 1152px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main {
+  max-width: var(--body-content-max-width);
+  display: flex;
+  flex-direction: column;
+}

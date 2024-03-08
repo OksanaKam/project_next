@@ -1,0 +1,19 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    width: var(--body-content-max-width);
+    padding: 27px 59px 26px 0;
+    gap: 34px;
+
+    &__link {
+        margin: 0;
+        padding: 0;
+        color: var(--main-text-color);
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 29.38px;
+        text-align: right;
+        text-decoration: none;
+    }
+}
