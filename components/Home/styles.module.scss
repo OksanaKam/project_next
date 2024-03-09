@@ -1,56 +1,5 @@
 .home {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    flex-direction: column;
     width: var(--body-content-max-width);
-    padding: 128px 148px 0 148px;
-
-    &__info {
-        display: flex;
-        flex-direction: column;
-    }
-
-    &__title {
-        max-width: 440px;
-        width: 100%;
-        margin: 18px 0 0;
-        padding: 0;
-        color: var(--main-text-color);
-        font-size: 44px;
-        font-weight: 700;
-        line-height: 60px;
-        text-align: left;
-    }
-
-    &__description {
-        max-width: 506px;
-        width: 100%;
-        margin: 25px 0 33px;
-        padding: 0;
-        color: var(--main-text-color);
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 23.5px;
-        text-align: left;
-    }
-
-    &__resume {
-        width: 208px;
-        height: 47px;
-        border-radius: 2px;
-        border: none;
-        background-color: #FF6464;
-        color: #FFFFFF;
-        font-size: 20px;
-        font-weight: 500;
-        line-height: 29.38px;
-        text-align: center;
-    }
-
-    &__avatar {
-        width: 243px;
-        height: 243px;
-        margin: 0;
-        padding: 0;
-    }
 }

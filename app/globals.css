@@ -1,5 +1,6 @@
 :root {
   --background-main-color: #FFFFFF;
+  --background-lightblue-color: #EDF7FA;
   --main-text-color: #21243D;
   --nav-text-color: #000000;
   --link-text-color: #00A8CC;
@@ -22,7 +23,6 @@ body {
 }
 
 .main {
-  max-width: var(--body-content-max-width);
   display: flex;
   flex-direction: column;
 }
